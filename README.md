@@ -33,17 +33,19 @@ Responsive
 
 ### Je opdracht:
 
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+[Dunkin Donuts](https://www.dunkin.nl/)
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
-hier de naam van de pagina  
- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Dunkin Donuts Home Page
+
+ <img src="readme-images/Screenshot1.jpg" width="375px" alt="Dunkin Donuts homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
-hier de naam van de pagina  
- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Dunkin Donuts About Page
+
+ <img src="readme-images/Screenshot2.jpg" width="375px" alt="Dunkin Donuts About Page">
 
 </details>
 
