@@ -22,7 +22,7 @@ Rode piste
 
 #### Je focus:
 
-Responsive
+Responsive focus
 
 </details>
 
