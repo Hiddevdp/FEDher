@@ -51,13 +51,19 @@ Dunkin Donuts About Page
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
 ### Bevindingen
 
 Lijst met je bevindingen die in de test naar voren kwamen:
 
+ - Op de website van Dunkin zijn een hoop plekken niet of slecht voorzien van een ALT. Voor screenreaders is het dus niet duidelijk waar bepaalde dingen staan.
+ - Headers staan niet overzichtelijk en vaak niet eens als Header in de HTML.
+ - Knoppen en links worden qua uiterlijk vaak door elkaar gebruikt.
+ - Veel animaties en geen mogelijkheid voor minder animatie, darkmode of high contrast mode. 
+ - Ook kunnen de font-sizes niet aangepast worden.
+ - Op telefoon is viewportzoom uitgeschakeld.
 </details>
 
 ## Breakdownschets (week 1)
