@@ -1,31 +1,43 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  /* startje */
+  --color-text: #111;
+  --color-background: #eee;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
 /****************/
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+}
 
-/* jouw code */
+nav a {
+  text-decoration: none;
+  color: var(--color-text);
+  padding: 0em 1em;
+  animation: font 1s ease-in-out;
+}
 
+nav a:hover {
+  font-size: 1.9em;
+  color: crimson;
+}
