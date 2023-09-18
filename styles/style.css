@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Dunkin";
+  src: url("../Fonts/Dunkin/Dunkin.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -12,32 +19,106 @@
 /*********************/
 :root {
   /* startje */
-  --color-text: #111;
+  --color-text: #000;
   --color-background: #eee;
+  --color-gray: #f0f0f0;
+  --color-dunkin: #ff671f;
 }
 
 /****************/
 /* JOUW STYLING */
 /****************/
-nav {
+body {
+  font-family: "Dunkin";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 10em;
+  border-bottom: 2px solid var(--color-gray);
+}
+
+header > button,
+a:first-of-type {
+  border: none;
+  border-radius: 10em;
+  margin: 0.2em;
+  padding: 0;
+}
+header > button:first-of-type {
+  background-color: var(--color-gray);
+  height: 1.75em;
+  width: 3em;
+}
+header > button:first-of-type > span {
+  display: block;
+  height: 1em;
+  width: 1.5em;
+  margin: auto;
+  background-image: linear-gradient(red 33%, white 33% 67%, blue 67%);
+}
+
+header > a:first-of-type {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-background);
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: var(--color-dunkin);
+  height: 2em;
+  width: 5em;
+}
+
+header > button:nth-of-type(2) {
+  background-color: var(--color-gray);
+  height: 2em;
+  width: 4em;
+}
+header > button:nth-of-type(2) > span {
+  display: block;
+  height: 0.27em;
+  width: 2em;
+  background-color: black;
+  margin: 0.2em auto;
+  border-radius: 1em;
+}
+
+header img {
+  height: 5em;
+  padding: 0;
+}
+
+nav {
+  display: none;
 }
 nav ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 nav li {
-  display: inline-block;
 }
 
 nav a {
   text-decoration: none;
   color: var(--color-text);
-  padding: 0em 1em;
-  animation: font 1s ease-in-out;
+  padding: 0 1em;
+  transition: font-size 0.2s ease-in-out;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 nav a:hover {
-  font-size: 1.9em;
+  font-size: 1.1em;
   color: crimson;
+}
+h1 {
+  font-family: Dunkin;
 }
