@@ -70,18 +70,24 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
-
+  
 ### de hele pagina:
+Breakdownschets Home
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Home.png" width="375px" alt="Breakdownschets Home">
+
+Breakdownschets About
+
+  <img src="readme-images/About.png" width="375px" alt="Breakdownschets About">
+
 
 ### dynamisch deel (bijv menu):
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  
 
 ### wellicht nog een dynamisch deel (bijv filter):
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  
 
 </details>
 
