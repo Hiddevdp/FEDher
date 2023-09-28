@@ -58,12 +58,12 @@ Dunkin Donuts About Page
 
 Lijst met je bevindingen die in de test naar voren kwamen:
 
- - Op de website van Dunkin zijn een hoop plekken niet of slecht voorzien van een ALT. Voor screenreaders is het dus niet duidelijk waar bepaalde dingen staan.
- - Headers staan niet overzichtelijk en vaak niet eens als Header in de HTML.
- - Knoppen en links worden qua uiterlijk vaak door elkaar gebruikt.
- - Veel animaties en geen mogelijkheid voor minder animatie, darkmode of high contrast mode. 
- - Ook kunnen de font-sizes niet aangepast worden.
- - Op telefoon is viewportzoom uitgeschakeld.
+- Op de website van Dunkin zijn een hoop plekken niet of slecht voorzien van een ALT. Voor screenreaders is het dus niet duidelijk waar bepaalde dingen staan.
+- Headers staan niet overzichtelijk en vaak niet eens als Header in de HTML.
+- Knoppen en links worden qua uiterlijk vaak door elkaar gebruikt.
+- Veel animaties en geen mogelijkheid voor minder animatie, darkmode of high contrast mode.
+- Ook kunnen de font-sizes niet aangepast worden.
+- Op telefoon is viewportzoom uitgeschakeld.
 </details>
 
 ## Breakdownschets (week 1)
@@ -98,11 +98,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Hidde                          | Karenza            | student 3    | student 4        |
+| ------------------------------ | ------------------ | ------------ | ---------------- |
+| Span en gradient voor knopjes? | en dit             | en ik dit    | en dan ik dat    |
+| Vh of breakpoints voor resp.?  | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Top nav mogelijk in flex?      | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
