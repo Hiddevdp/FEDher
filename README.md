@@ -80,14 +80,9 @@ Breakdownschets About
 
   <img src="readme-images/About.png" width="375px" alt="Breakdownschets About">
 
-
 ### dynamisch deel (bijv menu):
 
-  
-
 ### wellicht nog een dynamisch deel (bijv filter):
-
-  
 
 </details>
 
@@ -114,9 +109,9 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
+- Span en gradient is goed
+- vh of clamp() breakpoints kan een goede manier zijn
+- grid goed gedaan. alleen zijdes met padding doen.
 - ...
 
 </details>
