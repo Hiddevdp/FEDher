@@ -57,9 +57,6 @@ header {
   align-items: center;
   gap: 1em;
   padding: 0 1em;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   height: 5em;
   border-bottom: 2px solid var(--color-gray);
   background-color: var(--color-white);
@@ -87,34 +84,45 @@ header > button:first-of-type {
   background-position: center;
 }
 
-header > a:first-of-type {
-  display: none;
-
-  position: sticky;
+header > div {
+  position: fixed;
+  display: flex;
+  justify-content: center;
   bottom: 0;
+  width: 100%;
+  padding: 0 1em;
+  background-color: var(--color-white);
+}
+
+header > div:first-of-type > a {
   text-decoration: none;
-  font-size: 0.5em;
+  font-size: 1em;
+  text-align: center;
   color: var(--color-white);
   background-color: var(--color-dunkin);
-  padding: 0.5em 1.5em;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  width: 100%;
 }
 
 header > button:nth-of-type(2) {
   grid-area: 1 / 5 / 2 / 6;
   justify-self: end;
   background-color: var(--color-gray);
-  height: 2em;
-  width: 4em;
+  height: 2.5em;
+  width: 4.5em;
 }
+
 header > button:nth-of-type(2) > span {
   display: block;
   height: 0.27em;
-  width: 2em;
+  width: 1.5em;
   background-color: var(--color-text);
   margin: 0.15em auto;
   border-radius: 1em;
 }
-header > a:nth-of-type(2),
+
+header > a:nth-of-type(1),
 img {
   grid-area: 1/3/2/4;
   height: 2.5em;
@@ -154,7 +162,7 @@ nav a:hover {
 main {
   width: 100%;
   display: grid;
-  grid-template: 50vw 50vw 50vw 50vw/1fr;
+  grid-template: 50vw 50vw 50vw 50vw 50vw/1fr;
   gap: 1em;
   padding: 0 1em;
   justify-items: stretch;
@@ -182,30 +190,33 @@ main > section:nth-of-type(1) {
     );
   text-align: center;
   overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 main > section:nth-of-type(1) > img {
-  position: relative;
-  width: 6em;
+  position: absolute;
+  bottom: -11em;
+  width: 8em;
   height: auto;
-  top: -1.5em;
 }
 
 main > section:nth-of-type(1) > img:nth-of-type(1) {
-  left: 3em;
-  top: -2.5em;
-  z-index: 1;
+  left: 0.5em;
+  bottom: -5em;
 }
 
 main > section:nth-of-type(1) > img:nth-of-type(2) {
-  width: 8em;
-  z-index: 3;
+  width: 12em;
+  z-index: 1;
 }
 
 main > section:nth-of-type(1) > img:nth-of-type(3) {
-  right: 3em;
-  top: -2.5em;
-  z-index: 2;
+  right: 0.5em;
+  bottom: -5em;
 }
 
 main > section:nth-of-type(1) > h1 {
@@ -214,9 +225,7 @@ main > section:nth-of-type(1) > h1 {
   font-size: clamp(3em, 5vw, 5em);
   word-spacing: -0.35em;
   line-height: 1em;
-  padding: 1em 0.5em;
   height: fit-content;
-  margin: 0 auto;
 }
 
 main > section:nth-of-type(2) {
@@ -266,11 +275,33 @@ main > section:nth-of-type(2) > button:nth-of-type(2) {
 }
 
 main > section:nth-of-type(3) {
-  grid-area: 4 / 1 / 5 / 2;
-  /* width: 30%;
-  height: 12em; */
+  grid-area: 4 / 1 / 6 / 2;
   background-color: deepskyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
+
+main > section:nth-of-type(3) > h1 {
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-size: clamp(3em, 5vw, 5em);
+  word-spacing: -0.35em;
+  line-height: 1em;
+  height: fit-content;
+  text-align: center;
+  width: 5em;
+}
+
+main > section:nth-of-type(3) > img {
+  position: absolute;
+  width: 120%;
+  height: auto;
+  bottom: -18em;
+}
+
 main > section:hover {
   transform: scale(0.95);
 }
