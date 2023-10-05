@@ -129,11 +129,15 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Hidde                   | Zineb                    | Caynalin                     | Danisha              |
+| ----------------------- | ------------------------ | ---------------------------- | -------------------- |
+| @media voor resp. font? | css class voor pag. ?    | Waar bg paatsen?             | Hoe bg toepassen?    |
+| Main indeling ?         | Veel code voor section ? | Meer h2 elem. ?              | Resize zonder verv.? |
+| Resp. Grid-templ.?      | h1 niet boven grid ?     | Hoe weet scr welke h2 bij p? |                      |
+| Percentages voor size ? | Hoe grid resp. ?         | Correct span,img in h2?      |                      |
+|                         | div, sect. voor box ?    | Secie 3 iconen toep. ?       |                      |
+|                         |                          | <b>,<br> gebruik ?           |                      |
+|                         |                          | Sectie 4 goed? img,h2,h3 etc |                      |
 
 ### Verslag van meeting
 
