@@ -56,6 +56,8 @@ body {
     --fs-h1: 2em;
     --fs-p: 0.75em;
     --fs-bttn: 0.75em;
+
+    /* https://youtu.be/wARbgs5Fmuw?si=V7YRlJTYqOrUXZ_F&t=151 */
   }
 }
 
@@ -100,14 +102,12 @@ header > div {
   display: flex;
   justify-content: center;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   padding: 0 1em;
   background-color: var(--color-white);
 }
 
 header > div:first-of-type > a {
-  display: none;
-
   text-decoration: none;
   font-size: 1em;
   text-align: center;
@@ -116,6 +116,20 @@ header > div:first-of-type > a {
   padding: 1em 1.5em;
   margin: 1em 0;
   width: 100%;
+}
+
+@media (min-width: 576px) {
+  header > div {
+    position: static;
+    background-color: none;
+    width: fit-content;
+  }
+
+  header > div:first-of-type > a {
+    font-size: 0.75em;
+    text-wrap: nowrap;
+    padding: 0.5em 1em;
+  }
 }
 
 header > button:nth-of-type(2) {
