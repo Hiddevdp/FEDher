@@ -136,7 +136,7 @@ samen met je groepje opstellen
 | Resp. Grid-templ.?      | h1 niet boven grid ?     | Hoe weet scr welke h2 bij p? |                      |
 | Percentages voor size ? | Hoe grid resp. ?         | Correct span,img in h2?      |                      |
 |                         | div, sect. voor box ?    | Secie 3 iconen toep. ?       |                      |
-|                         |                          | "<b>","<br>" gebruik ?       |                      |
+|                         |                          | b,br gebruik ?               |                      |
 |                         |                          | Sectie 4 goed? img,h2,h3 etc |                      |
 
 ### Verslag van meeting
