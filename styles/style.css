@@ -33,6 +33,9 @@
   --color-white: #ffffff;
   --color-gray: #f0f0f0;
   --color-dunkin: #ff671f;
+  --fs-h1: 3em;
+  --fs-p: 1em;
+  --fs-bttn: 1em;
 }
 
 /****************/
@@ -46,6 +49,14 @@ html,
 body {
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 576px) {
+  :root {
+    --fs-h1: 2em;
+    --fs-p: 0.75em;
+    --fs-bttn: 0.75em;
+  }
 }
 
 /* HEADER ******************************************************************************************/
@@ -95,6 +106,8 @@ header > div {
 }
 
 header > div:first-of-type > a {
+  display: none;
+
   text-decoration: none;
   font-size: 1em;
   text-align: center;
@@ -167,6 +180,13 @@ main {
   padding: 0 1em;
   justify-items: stretch;
   margin: 1em 0 0 0;
+  transition: 1s;
+}
+
+@media (min-width: 576px) {
+  main {
+    grid-template: 10vw 10vw 10vw 10vw 10vw/1.5fr 1fr;
+  }
 }
 
 main > section {
@@ -197,35 +217,42 @@ main > section:nth-of-type(1) {
   align-items: center;
 }
 
-main > section:nth-of-type(1) > img {
-  position: absolute;
-  bottom: -11em;
-  width: 8em;
-  height: auto;
-}
-
-main > section:nth-of-type(1) > img:nth-of-type(1) {
-  left: 0.5em;
-  bottom: -5em;
-}
-
-main > section:nth-of-type(1) > img:nth-of-type(2) {
-  width: 12em;
-  z-index: 1;
-}
-
-main > section:nth-of-type(1) > img:nth-of-type(3) {
-  right: 0.5em;
-  bottom: -5em;
+@media (min-width: 576px) {
+  main > section:nth-of-type(1) {
+    grid-area: 1/1/6/2;
+  }
 }
 
 main > section:nth-of-type(1) > h1 {
   color: var(--color-white);
   text-transform: uppercase;
-  font-size: clamp(3em, 5vw, 5em);
+  font-size: 3em;
   word-spacing: -0.35em;
   line-height: 1em;
   height: fit-content;
+  width: 6em;
+  margin: 5%;
+}
+
+main > section:nth-of-type(1) > img {
+  position: absolute;
+  top: 55%;
+  width: auto;
+  height: 60%;
+}
+
+main > section:nth-of-type(1) > img:nth-of-type(1) {
+  left: 5%;
+}
+
+main > section:nth-of-type(1) > img:nth-of-type(2) {
+  height: 100%;
+  top: 40%;
+  z-index: 1;
+}
+
+main > section:nth-of-type(1) > img:nth-of-type(3) {
+  right: 5%;
 }
 
 main > section:nth-of-type(2) {
@@ -235,23 +262,30 @@ main > section:nth-of-type(2) {
   background-color: deeppink;
 }
 
+@media (min-width: 576px) {
+  main > section:nth-of-type(2) {
+    grid-area: 1/2/3/3;
+  }
+}
+
 main > section:nth-of-type(2) > h1 {
   grid-area: 1/1/2/3;
   color: var(--color-white);
   text-transform: uppercase;
   text-align: center;
-  font-size: clamp(3em, 5vw, 5em);
+  font-size: var(--fs-h1);
   word-spacing: -0.35em;
-  padding: 0.3em 0 0 0;
-  height: fit-content;
-  margin: 0 auto;
+  line-height: 1em;
+  padding: 0;
+  width: 100%;
+  margin: 5% auto;
 }
 
 main > section:nth-of-type(2) > p {
   grid-area: 2/1/3/3;
   color: var(--color-white);
-  font-size: 0.8em;
-  padding: 0 2em;
+  font-size: var(--fs-p);
+  padding: 0 5%;
   margin: auto 0;
 }
 main > section:nth-of-type(2) > button {
@@ -259,13 +293,14 @@ main > section:nth-of-type(2) > button {
   color: deeppink;
   border-radius: 0.5em;
   font-family: "dunkinregular";
+  font-size: var(--fs-bttn);
   text-transform: uppercase;
   grid-area: 3/1/4/2;
   border: none;
   margin: auto;
   padding: 0;
-  width: 10em;
-  height: 3em;
+  width: 80%;
+  height: 60%;
 }
 
 main > section:nth-of-type(2) > button:nth-of-type(2) {
@@ -284,22 +319,28 @@ main > section:nth-of-type(3) {
   position: relative;
 }
 
+@media (min-width: 576px) {
+  main > section:nth-of-type(3) {
+    grid-area: 3/2/6/3;
+  }
+}
+
 main > section:nth-of-type(3) > h1 {
   color: var(--color-white);
   text-transform: uppercase;
-  font-size: clamp(3em, 5vw, 5em);
+  font-size: var(--fs-h1);
   word-spacing: -0.35em;
   line-height: 1em;
-  height: fit-content;
   text-align: center;
   width: 5em;
+  margin-top: 5%;
 }
 
 main > section:nth-of-type(3) > img {
   position: absolute;
   width: 120%;
   height: auto;
-  bottom: -18em;
+  top: 10%;
 }
 
 main > section:hover {
