@@ -143,9 +143,9 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
+- komt door vw in grid-template
+- kijk naar grid-column en grid-row
+-
 - ...
 
 </details>
