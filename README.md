@@ -93,17 +93,17 @@ Breakdownschets About
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ben begonnen met het maken van de top nav. alleen lastig om te maken met Flexbox. Grid geprobeerd en dit ging vrij goed, ongeacht dat ik dit weinig eerder heb gebruikt.
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| Hidde                          | Karenza            | student 3    | student 4        |
-| ------------------------------ | ------------------ | ------------ | ---------------- |
-| Span en gradient voor knopjes? | en dit             | en ik dit    | en dan ik dat    |
-| Vh of breakpoints voor resp.?  | dit als er tijd is | nog een punt | dit wil ik zeker |
-| Top nav mogelijk in flex?      | ...                | ...          | ...              |
+| Hidde                          | Karenza | student 3 | student 4 |
+| ------------------------------ | ------- | --------- | --------- |
+| Span en gradient voor knopjes? |         |           |           |
+| Vh of breakpoints voor resp.?  |         |           |           |
+| Top nav mogelijk in flex?      |         |           |           |
 
 ### Verslag van meeting
 
@@ -123,7 +123,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het responsive maken gaat nog lastig maar ik merk dat er vooruitgang in zit. Ben nog niet begonnen aan JS.
 
 ### Agenda voor meeting
 
@@ -168,7 +168,7 @@ Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er v
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het was nog niet helemaal duidelijk welke elementen ik moet gebruiken op welke plekken (sections of divs). Voor de rest gaat het goed.
 
 ### Agenda voor meeting
 
@@ -196,19 +196,27 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-11-21 225011.png" width="375px" alt="Karakteristieke screenshot">
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+Ik heb geleerd layouts te maken met grid. Iets dat ik eerder nog niet goed onder de knie had.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/ScreenshotGrid.png" width="375px" alt="top">
+
+Ook ben ik aan de gang geweest met Css animaties met keyframes. Hier heb veel plezier aan gehad.
+
+  <img src="readme-images/ScreenshotCssAnimations.png" width="375px" alt="top">
 
 ### Dit was lastig/Is niet gelukt:
 
-Korte omschrijving met plaatjes
+De animatie om de letters tegen elkaar in te sliden was erg lastig. Vooral omdat het gedraaid moet staan.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/ScreenshotSlide.png" width="375px" alt="bummer">
+
+Uiteindelijk is het goed gelukt door de draai voor de slide al in de animatie te zetten.
+
+  <img src="readme-images/ScreenshotSlideCode.png" width="375px" alt="bummer">
 </details>
 
 ## Bronnenlijst
