@@ -159,6 +159,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+- Alles voorzien van een alt of een Aria-label
+- Goede elementen gebruikt
+- Nog steeds soms onduidelijkheid over buttons of links
+- Geen optie voor minder animatie, darkmode of high contrast mode
+
 </details>
 
 ## Voortgang 3 (week 4)
@@ -202,21 +207,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Ik heb geleerd layouts te maken met grid. Iets dat ik eerder nog niet goed onder de knie had.
 
-  <img src="readme-images/ScreenshotGrid.png" width="375px" alt="top">
+  <img src="readme-images/ScreenshotGrid.png" width="375px" alt="Screenshot van Grid">
 
 Ook ben ik aan de gang geweest met Css animaties met keyframes. Hier heb veel plezier aan gehad.
 
-  <img src="readme-images/ScreenshotCssAnimations.png" width="375px" alt="top">
+  <img src="readme-images/ScreenshotCssAnimations.png" width="375px" alt="Screenshot van Keyframes">
 
 ### Dit was lastig/Is niet gelukt:
 
 De animatie om de letters tegen elkaar in te sliden was erg lastig. Vooral omdat het gedraaid moet staan.
 
-  <img src="readme-images/ScreenshotSlide.png" width="375px" alt="bummer">
+  <img src="readme-images/ScreenshotSlide.png" width="375px" alt="Screenshot van slide tekst">
 
 Uiteindelijk is het goed gelukt door de draai voor de slide al in de animatie te zetten.
 
-  <img src="readme-images/ScreenshotSlideCode.png" width="375px" alt="bummer">
+  <img src="readme-images/ScreenshotSlideCode.png" width="375px" alt="Screenshot van de code voor de slide tekst">
 </details>
 
 ## Bronnenlijst
@@ -228,8 +233,13 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
-1. bron 1
-2. bron 2
-3. ...
+1.  https://css-tricks.com/snippets/css/complete-guide-grid/
+2.  https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient
+3.  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4.  https://www.fontsquirrel.com/tools/webfont-generator
+5.  https://youtu.be/wARbgs5Fmuw?si=V7YRlJTYqOrUXZ_F&t=151
+6.  https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient
+7.  https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
+8.  https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d
 
 </details>

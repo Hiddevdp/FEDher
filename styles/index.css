@@ -58,6 +58,7 @@
     /* https://youtu.be/wARbgs5Fmuw?si=V7YRlJTYqOrUXZ_F&t=151 */
   }
 }
+/* aangepaste fontsizes voor groot scherm */
 
 /****************/
 /* JOUW STYLING */
@@ -78,10 +79,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-/* html {
-  height: 100%;
-} */
 
 /* MAIN ******************************************************************************************/
 
@@ -127,7 +124,9 @@ main > section > section:nth-of-type(1) {
       var(--color-burlywood) 0 30deg,
       var(--color-peru) 0 35deg,
       var(--color-burlywood) 0 60deg
+        /* https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient */
     );
+  /* Gradient voor WE LOVE COFFEE achtergrondje */
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -175,6 +174,7 @@ main > section > section:nth-of-type(1) > img:nth-of-type(2) {
 main > section > section:nth-of-type(1) > img:nth-of-type(3) {
   right: 5%;
 }
+/* positioneren van de Koffieglazen */
 
 main > section > section:nth-of-type(2) {
   grid-area: 3 / 1 / 4 / 2;
