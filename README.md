@@ -1,11 +1,6 @@
 # Procesverslag
 
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
+Dit is het procesverslag van mijn website van Dunkin' Donuts voor Frontend Development.
 
 ## Jij
 
@@ -14,7 +9,7 @@ Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard op
 
 ### Auteur:
 
-Hidde van der plaat
+Hidde van der Plaat
 
 #### Je startniveau:
 
@@ -111,8 +106,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Span en gradient is goed
 - vh of clamp() breakpoints kan een goede manier zijn
-- grid goed gedaan. alleen zijdes met padding doen.
-- ...
+- grid goed gedaan. alleen zijdes met padding doen
 
 </details>
 
@@ -123,7 +117,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-Het responsive maken gaat nog lastig maar ik merk dat er vooruitgang in zit. Ben nog niet begonnen aan JS.
+Het responsive maken gaat nog lastig maar ik merk dat er vooruitgang in zit. Ben nog niet begonnen aan JS
 
 ### Agenda voor meeting
 
@@ -173,7 +167,7 @@ Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er v
 
 ### Stand van zaken
 
-Het was nog niet helemaal duidelijk welke elementen ik moet gebruiken op welke plekken (sections of divs). Voor de rest gaat het goed.
+Het was nog niet helemaal duidelijk welke elementen ik moet gebruiken op welke plekken (sections of divs). Voor de rest gaat het goed
 
 ### Agenda voor meeting
 
@@ -205,21 +199,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Dit ging goed/Heb ik geleerd:
 
-Ik heb geleerd layouts te maken met grid. Iets dat ik eerder nog niet goed onder de knie had.
+Ik heb geleerd layouts te maken met grid. Iets dat ik eerder nog niet echt gebruikt had
 
   <img src="readme-images/ScreenshotGrid.png" width="375px" alt="Screenshot van Grid">
 
-Ook ben ik aan de gang geweest met Css animaties met keyframes. Hier heb veel plezier aan gehad.
+Ook ben ik aan de gang geweest met Css animaties met keyframes. Hier heb veel plezier aan gehad
 
   <img src="readme-images/ScreenshotCssAnimations.png" width="375px" alt="Screenshot van Keyframes">
 
 ### Dit was lastig/Is niet gelukt:
 
-De animatie om de letters tegen elkaar in te sliden was erg lastig. Vooral omdat het gedraaid moet staan.
+De animatie om de letters tegen elkaar in te sliden was erg lastig. Vooral omdat het gedraaid moet staan
 
   <img src="readme-images/ScreenshotSlide.png" width="375px" alt="Screenshot van slide tekst">
 
-Uiteindelijk is het goed gelukt door de draai voor de slide al in de animatie te zetten.
+Uiteindelijk is het goed gelukt door de draai voor de slide al in de animatie te zetten
 
   <img src="readme-images/ScreenshotSlideCode.png" width="375px" alt="Screenshot van de code voor de slide tekst">
 </details>
